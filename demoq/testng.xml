@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/eclipse-workspace/SELENIUM-POM-CLONED/demoq">
+        <classes>
+            <class name="com.demoqa.elementtest.AlertsFrameWindowPageTest">
+                <methods>
+                    <include name="alerts"/>
+                </methods>
+            </class>
+            <class name="com.demoqa.elementtest.BookStoreLoginTest">
+                <methods>
+                    <include name="testlogin"/>
+                </methods>
+            </class>
+            <class name="com.demoqa.elementtest.ElementTest">
+                <methods>
+                    <include name="element"/>
+                </methods>
+            </class>
+            <class name="com.demoqa.elementtest.FormTest">
+                <methods>
+                    <include name="forms"/>
+                </methods>
+            </class>
+            <class name="com.demoqa.elementtest.WidgetsTest">
+                <methods>
+                    <include name="accordian"/>
+                    <include name="autoComplete"/>
+                    <include name="datePicker"/>
+                    <include name="slider"/>
+                    <include name="progressbar"/>
+                    <include name="tabs"/>
+                    <include name="toolTips"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
